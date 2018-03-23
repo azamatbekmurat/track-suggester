@@ -1,5 +1,21 @@
 #result {
   display: none;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+#additional-info {
+  margin-bottom: 75px;
+}
+
+.program-list {
+  display: none;
+}
+
+#list {
+  font-style: italic;
+  text-decoration: underline;
+  color: #302de2;
 }
 
 h1 {
@@ -20,11 +36,34 @@ h2 {
   margin: 32px;
 }
 
-#result {
-  margin-top: 50px;
-}
-
 .grade {
   font-size: 20px;
   font-style: italic;
+}
+
+#name {
+  text-decoration: underline;
+  color: #1429b7;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#language {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #911f0e;
+  font-size: 28px;
+}
+
+#framework {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #36668c;
+  font-size: 28px;
+}
+
+#button {
+  margin-bottom: 150px;
+  margin-top: 25px;
 }
