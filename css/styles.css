@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  color: #137a96;
+  margin: 28px;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+#welcome {
+  text-align: center;
+  color: #368c78;
+  font-style: italic;
+  margin: 32px;
+}
+
+#result {
+  margin-top: 50px;
+}
