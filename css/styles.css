@@ -19,6 +19,11 @@
   color: #302de2;
 }
 
+.checkbox-inline, .radio-inline {
+  padding: 12px;
+  font-size: 20px;
+}
+
 h1 {
   text-align: center;
   color: #137a96;
