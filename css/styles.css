@@ -1,3 +1,7 @@
+#result {
+  display: none;
+}
+
 h1 {
   text-align: center;
   color: #137a96;
@@ -18,4 +22,9 @@ h2 {
 
 #result {
   margin-top: 50px;
+}
+
+.grade {
+  font-size: 20px;
+  font-style: italic;
 }
