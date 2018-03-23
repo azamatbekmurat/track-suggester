@@ -9,7 +9,7 @@ _This website asks future students a series of questions about themselves and pr
 
 ## SetUp/Installation Requirements
 * _Clone repository from following link: https://github.com/azamatbekmurat/track-suggester_
-* _Click on index.html file to open it browser_
+* _Click on index.html file to open it on a browser_
 
 ## Technologies Used
 * HTML

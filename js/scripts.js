@@ -13,7 +13,6 @@ var sum = function(number1, number2) {
     var framework2 = "Angular";
     var framework3 = ".NET";
 
-
 // User interface (or front-end) logic:
 
 $(document).ready(function() {
