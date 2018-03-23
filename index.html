@@ -23,7 +23,7 @@
 
           <div class="form-group">
             <label for="name">Full Name:</label>
-            <input id="name" class="form-control" type="text" placeholder="Name">
+            <input id="person" class="form-control" type="text" placeholder="Name">
           </div>
 
           <div class="form-group">
@@ -49,87 +49,67 @@
           <h2>Your preferences</h2>
 
           <div class="radio">
-            <h3>1. Please grade how much would you like an idea to work in tech industry <span class="grade">(1-"Hate", 2-"Negative", 3-"Positive", 4-"Like")</span>:</h3>
+            <h3>1. What color do you prefer to choose from below?:</h3>
             <label class="radio-inline">
-              <input type="radio" name="option1" id="inlineRadio1" value="option1"> 1
+              <input type="radio" name="color" id="blue" value="blue">Blue
             </label>
             <label class="radio-inline">
-              <input type="radio" name="option1" id="inlineRadio2" value="option2"> 2
+              <input type="radio" name="color" id="green" value="green">Green
             </label>
             <label class="radio-inline">
-              <input type="radio" name="option1" id="inlineRadio3" value="option3"> 3
+              <input type="radio" name="color" id="red" value="red">Red
             </label>
             <label class="radio-inline">
-              <input type="radio" name="option1" id="inlineRadio3" value="option3"> 4
+              <input type="radio" name="color" id="yellow" value="yellow">Yellow
             </label>
 
           </div>
 
-          <div class="radio">
-            <h3>2. Please grade how much you love working with computer<span class="grade">(1-"Hate", 2-"Negative", 3-"Positive", 4-"Like")</span>:</h3>
-            <label class="radio-inline">
-              <input type="radio" name="option2" id="inlineRadio1" value="option1"> 1
+          <div class="checkbox">
+            <h3>2. What companies do you like most in tech industry?:</h3>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option2" value="1">Google
             </label>
-            <label class="radio-inline">
-              <input type="radio" name="option2" id="inlineRadio2" value="option2"> 2
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option2" value="2">Microsoft
             </label>
-            <label class="radio-inline">
-              <input type="radio" name="option2" id="inlineRadio3" value="option3"> 3
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option2" value="3">Facebook
             </label>
-            <label class="radio-inline">
-              <input type="radio" name="option2" id="inlineRadio3" value="option3"> 4
-            </label>
-          </div>
-
-          <div class="radio">
-            <h3>3. Please grade how much you love creating new things<span class="grade">(1-"Hate", 2-"Negative", 3-"Positive", 4-"Like")</span>:</h3>
-            <label class="radio-inline">
-              <input type="radio" name="option3" id="inlineRadio1" value="option1"> 1
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="option3" id="inlineRadio2" value="option2"> 2
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="option3" id="inlineRadio3" value="option3"> 3
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="option3" id="inlineRadio3" value="option3"> 4
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option2" value="4">StartUps
             </label>
           </div>
 
-          <div class="radio">
-            <h3>4. Please grade how much do you like Java<span class="grade">(1-"Hate", 2-"Negative", 3-"Positive", 4-"Like")</span>:</h3>
-            <label class="radio-inline">
-              <input type="radio" name="option4" id="inlineRadio1" value="option1"> 1
+          <div class="checkbox">
+            <h3>3. What areas do you want to study?:</h3>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option3" value="option1">Web Development
             </label>
-            <label class="radio-inline">
-              <input type="radio" name="option4" id="inlineRadio2" value="option2"> 2
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option3" value="option2">Android Apps development
             </label>
-            <label class="radio-inline">
-              <input type="radio" name="option4" id="inlineRadio3" value="option3"> 3
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option3" value="option3">Front-End development
             </label>
-            <label class="radio-inline">
-              <input type="radio" name="option4" id="inlineRadio3" value="option3"> 4
-            </label>
-          </div>
-
-          <div class="radio">
-            <h3>5. Please grade how much do you like Microsoft software products<span class="grade">(1-"Hate", 2-"Negative", 3-"Positive", 4-"Like")</span>:</h3>
-            <label class="radio-inline">
-              <input type="radio" name="option5" id="inlineRadio1" value="option1"> 1
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="option5" id="inlineRadio2" value="option2"> 2
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="option5" id="inlineRadio3" value="option3"> 3
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="option5" id="inlineRadio3" value="option3"> 4
+            <label class="checkbox-inline">
+              <input type="checkbox" name="option3" value="option3">Back-end development
             </label>
           </div>
 
 
+
+          <div class="form-group">
+            <h3>4. Please grade how much do you like Java <span class="grade">(You need to put a number, where: 1-"Hate", 2-"Bad attitude", 3-"Good attitude", 4-"Like")</span>:</h3>
+            <label for="grade">Your grade:</label>
+            <input id="input1" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <h3>5. Please grade how much do you like Microsoft software products <span class="grade">(You need to put a number, where: 1-"Hate", 2-"Bad attitude", 3-"Good attitude", 4-"Like")</span>:</h3>
+            <label for="grade">Your grade:</label>
+            <input id="input2" class="form-control" type="text">
+          </div>
 
 
           <h2>More Details</h2>

@@ -1,8 +1,17 @@
 // Business (or back-end) logic:
 
-var sum = function(number1, number2, number3, number4) {
-  return number1 + number2 + number3 + number4;
+var sum = function(number1, number2) {
+  return number1 + number2;
 };
+
+    var language1 = "Java";
+    var language2 = "C#";
+    var language3 = "Python";
+    var language4 = "Ruby";
+
+    var framework1 = "React";
+    var framework2 = "Angular";
+    var framework3 = ".NET";
 
 
 // User interface (or front-end) logic:
@@ -10,26 +19,32 @@ var sum = function(number1, number2, number3, number4) {
 $(document).ready(function() {
 	$("form#survey").submit(function(event) {
     event.preventDefault();
-    var number1 = parseInt($("#add1").val());
-    var number2 = parseInt($("#add2").val());
-    var character = $("#character").val();
-    var result;
+    var number1 = parseInt($("#input1").val());
+    var number2 = parseInt($("#input2").val());
+    var person = $("#person").val();
 
-    alert("hi")
-    if (character === "add") {
-    result = add(number1, number2);
-  } else if (character === "subtract") {
-    result = subtract(number1, number2);
-  } else if (character === "multiply") {
-    result = multiply(number1, number2);
-  } else if (character === "divide") {
-    result = divide(number1, number2);
-  } else {
-    alert("Error!!");
+    var color = $("input:radio[name=color]:checked").val();;
+    var result = sum(number1,number2);
+
+    if (result < 4) {
+      $("#framework").text(framework1);
+    } else if (result >= 4 && result < 7) {
+      $("#framework").text(framework2);
+    } else {
+      $("#framework").text(framework3);
+    }
+
+    if (color === "blue") {
+    $("#language").text(language1);
+  } else if (color === "green") {
+    $("#language").text(language2);
+  } else if (color === "red") {
+    $("#language").text(language3);
+  } else if (color === "yellow") {
+    $("#language").text(language4);
   }
 
-    $("#language").text(language);
-    $("#framework").text(framework);
+    $("#name").text(person)
     $("#result").show();
   });
 
