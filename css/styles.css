@@ -5,6 +5,7 @@
 }
 
 #additional-info {
+  display: none;
   margin-bottom: 75px;
 }
 
@@ -12,7 +13,7 @@
   display: none;
 }
 
-#list {
+#list,#epicodus {
   font-style: italic;
   text-decoration: underline;
   color: #302de2;
@@ -64,6 +65,17 @@ h2 {
 }
 
 #button {
-  margin-bottom: 150px;
+  margin-bottom: 25px;
   margin-top: 25px;
+}
+
+.program {
+  text-decoration: underline;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.definition {
+  font-size: 25px;
+  font-style: italic;
 }

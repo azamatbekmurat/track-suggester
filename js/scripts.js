@@ -48,15 +48,12 @@ $(document).ready(function() {
     $("#result").show();
   });
 
-  $("#language").click(function() {
+  $("#epicodus").click(function() {
     $("#additional-info").show();
   });
 
   $("#list").click(function() {
     $(".program-list").fadeToggle();
   });
-
-
-
 
 });
